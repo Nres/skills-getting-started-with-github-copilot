@@ -142,3 +142,64 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.participants ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participant-item {
+  background-color: #ffffff;
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  border: 1px solid #eef1ff;
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participant-email {
+  word-break: break-word;
+  margin-right: 8px;
+  flex: 1 1 auto;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198,40,40,0.08);
+}
+
+/* small helper for empty state */
+.participants .empty {
+  color: #666;
+  font-size: 14px;
+  padding: 6px 0;
+}
